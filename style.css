@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  background: #0b0b0f;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #5bc0ff;
+}
+
+/* SECTIONS */
+.section {
+  min-height: 100vh;
+  padding: 120px 80px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+/*  background: radial-gradient(circle at left, #3e96ed, #6a0dad, #000);*/  
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  
+}
+
+.hero-content span {
+  color: #6a0dad;
+  
+  
+}
+h2{
+  background-color: #6a0dad;
+  
+  width:fit-content;
+}
+
+.hero-img img {
+ 
+  width: 320px;
+  height: 640px;
+  border-radius: 80px;
+  background-color: #6a0dad;
+
+  mix-blend-mode:normal; 
+  
+
+  
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #cccccca0;
+    margin: 1em 0;
+    padding: 0;
+}   
+
+/* SPLIT SECTIONS */
+.split {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.about-me{
+  padding-top: 10px;
+  
+  
+}
+
+.section-img {
+  width: 280px;
+  opacity: 0.9;
+}
+
+/* INFO CARDS */
+.info-card {
+  display:flex;
+  gap: 30px;
+  background: rgba(255,255,255,0.05);
+  padding: 50px;
+  border-left: 4px solid #6a0dad;
+  margin-top: 50px;
+}
+
+.info-card img {
+  width: 60px;
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background:#6a0dad47;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  
+  
+}
+
+.project-card img {
+  width: 30%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact {
+  display:grid;
+  width: 10px;
+  gap: 20%;
+  
+}
+
+.contact img {
+  width: 90px;
+  display:block;
+  padding-bottom: 10px;
+}
+.btn {
+  display:grid;
+  text-align: center;
+  border-left: 4px solid #6a0dad;
+  border-bottom:  4px solid #6a0dad;
+  border-top: 1px solid #6a0dad;
+  
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-decoration:none;
+}
+.btns{
+  display:flex;
+   gap: 20%;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+}
