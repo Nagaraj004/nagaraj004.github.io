@@ -81,10 +81,7 @@ h2{
   height: 640px;
   border-radius: 80px;
   background-color: #6a0dad;
-
   mix-blend-mode:normal; 
-  
-
   
 }
 hr {
@@ -103,9 +100,7 @@ hr {
   align-items: center;
 }
 .about-me{
-  padding-top: 10px;
-  
-  
+  padding-top: 10px; 
 }
 
 .section-img {
@@ -122,25 +117,20 @@ hr {
   border-left: 4px solid #6a0dad;
   margin-top: 50px;
 }
-
 .info-card img {
   width: 60px;
 }
-
 /* PROJECTS */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
-
 .project-card {
   background:#6a0dad47;
   padding: 15px;
   border-radius: 10px;
-  text-align: center;
-  
-  
+  text-align: center; 
 }
 
 .project-card img {
@@ -154,7 +144,7 @@ hr {
   display:grid;
   width: 10px;
   gap: 20%;
-  
+  hight:auto;
 }
 
 .contact img {
@@ -168,7 +158,6 @@ hr {
   border-left: 4px solid #6a0dad;
   border-bottom:  4px solid #6a0dad;
   border-top: 1px solid #6a0dad;
-  
   color: white;
   padding: 10px 15px;
   border-radius: 20px;
@@ -178,10 +167,10 @@ hr {
   display:flex;
    gap: 20%;
 }
-
 /* FOOTER */
 footer {
   background: #000;
   text-align: center;
   padding: 20px;
 }
+
