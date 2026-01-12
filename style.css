@@ -71,7 +71,7 @@ nav a:hover {
 }
 h2{
   background-color: #6a0dad;
-  
+  hight:auto;
   width:fit-content;
 }
 
@@ -173,4 +173,5 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
 
