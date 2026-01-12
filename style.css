@@ -146,6 +146,9 @@ hr {
   gap: 20%;
   hight:auto;
 }
+. contact h2{
+  high:auto;
+}
 
 .contact img {
   width: 90px;
@@ -173,5 +176,6 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
 
 
